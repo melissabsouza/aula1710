@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: #e91c5d;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 73px;
+}
+
+#conteudo{
+    width: 1105px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.caixa{
+    width: 56px;
+    height: 56px;
+    border-radius: 6px;
+    background-color: pink;
+}
+
+.rosa{
+    background-color: pink;
+}
+
+.roxo{
+    background-color: rgb(192, 57, 192);
+
+}
+
+.vermelha{
+    background-color: rgb(255, 57, 57);
+}
+
+.laranja{
+    background-color: rgb(252, 107, 55);
+}
+
+.azulClaro{
+    background-color: rgb(125, 175, 250);
+}
+
+.rosaEscuro{
+    background-color: rgb(250, 58, 90);
+}
+.verde{
+    background-color: rgb(110, 247, 110);
+}
+
+.amarelo{
+    background-color: rgb(255, 255, 85);
+}
+
+#linha1{
+    display: flex;
+    /* deixou as caixas separadas*/
+    justify-content: space-between;
+}
+
+#linha2{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha3{
+    display: flex;
+    justify-content: space-between;
+}
+
+#linha4{
+    display: flex;
+    gap: 5px;
+}
+
+#linha5{
+    display: flex;
+    gap: 5px;
+}
+
+#linha6{
+    display: flex;
+    gap: 5px;
+}
+
+#linha7{
+    display: flex;
+    gap: 5px;
+}
+
+.grupo{
+    display: flex;
+    gap: 5px;
+}
+
+.grupolinha4{
+    display: flex;
+    gap: 5.8px;
+    justify-content: space-between;
+}
+
+.grupolinha5{
+    display: flex;
+    gap: 5.8px;
+    justify-content: space-between;
+}
+
+.grupolinha6{
+    display: flex;
+    gap: 5.8px;
+    justify-content: space-between;
+}
+
+.grupolinha7{
+    display: flex;
+    gap: 5.8px;
+    justify-content: space-between;
+}
