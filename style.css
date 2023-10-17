@@ -20,6 +20,13 @@ h1{
     gap: 10px;
 }
 
+#conteudo2{
+    width: 1105px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .caixa{
     width: 56px;
     height: 56px;
@@ -59,6 +66,13 @@ h1{
     background-color: rgb(255, 255, 85);
 }
 
+.cinza{
+    background-color: rgb(163, 161, 161);
+}
+
+.azulclarinho{
+    background-color: lightseagreen;
+}
 #linha1{
     display: flex;
     /* deixou as caixas separadas*/
@@ -95,6 +109,16 @@ h1{
     gap: 5px;
 }
 
+#linha8{
+    display: flex;
+    gap: 5px;
+}
+
+#linha9{
+    display: flex;
+    gap: 5px;
+}
+
 .grupo{
     display: flex;
     gap: 5px;
@@ -122,4 +146,15 @@ h1{
     display: flex;
     gap: 5.8px;
     justify-content: space-between;
+}
+.grupolinha8{
+    display: flex;
+    gap: 5.8px;
+    justify-content: flex-end;
+}
+
+.grupolinha9{
+    display: flex;
+    gap: 5.8px;
+    justify-content: flex-end;
 }
